@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management</title>
+    <link rel="icon" type="image/x-icon" href="https://imgs.search.brave.com/GjpKKmrsHIIidasxgH0oDu364lqeZgA_-aZUMVkFBP0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2l4c3RhdGlj/LmNvbS9tZWRpYS80/YTJmNGFfZDM5ZTg4/YWI3OWJmNGMwMDg4/MGMzYWZlZmFkNTVj/NGR-bXYyLnBuZy92/MS9jcm9wL3hfMCx5/XzAsd18yNTcsaF8x/NDQvZmlsbC93XzM2/MCxoXzIwMCxhbF9j/LGxnXzEscV84NSxl/bmNfYXV0by9XaWxk/JTIwRHVuZXMlMjBM/b2dvLnBuZw">
+    <link rel="stylesheet" href="nav.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+      
+        <h1>Welcome to Hotel Wild Dunes Inns</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+   
+    <main>
+        <section id="home">
+            <h3>Home</h3>
+            <p>Discover a world of luxury and comfort at our exquisite hotel. Whether you are here for business or leisure, we strive to make your stay truly memorable. Experience top-notch hospitality and enjoy the finest amenities we have to offer.</p>
+            <p>Here's is some visual represention of our paradise.....</p>
+
+            <video width="800" height="400" controls>
+              <source src="D:\BE TE\New folder (2)\hotel\mixkit-exhausted-businessman-arriving-to-the-hotel-room-24164-large.mp4" type="video/mp4">
+            </video>
+          
+          </section>
+        <section id="gallery">
+            <h3>Gallery</h3>
+            <div class="gallery">
+                <img src="https://imgs.search.brave.com/D1RXOpJsqDaGUmqp8IBZfbJIsd_2gcDqUUmvcHigAds/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTg0/NjA5MDU3L3Bob3Rv/L2x1eHVyeS1ob3Rl/bC1yb29tLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1OTjFP/VGRkdlV4R3gtQ05T/SFllMlNRdnNWN2Rp/TWc4QUJ5SWxuSE0z/OVh3PQ" alt="Image 1">
+                <img src="https://imgs.search.brave.com/uhiN72be-8z8qBSecbnA_rW-0q6sEpesgUhk3mT91HU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTAz/NDE3NDAyL3Bob3Rv/L2x1eHVyeS1jb25z/dHJ1Y3Rpb24taG90/ZWwtd2l0aC1zd2lt/bWluZy1wb29sLWF0/LXN1bnNldC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9TnlQ/Q19jLXdFM1dfQ0lt/QTR0NTdGcHlHeTZm/NDI4Q1lST2Q4MGp4/VkM0QT0" alt="Image 2">
+                <img src="https://imgs.search.brave.com/rGc_ww-gvEuzNDYFCPAflNtA2GJd5WJuJDZ3uTFc904/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTA3/NzExMTYwNi9waG90/by9sdXh1cnktZml2/ZS1zdGFycy1ob3Rl/bHMtbG9iYnkuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPW13/cGVTYUJXVHJlMldF/R0dkNHViTFFWQlJW/YWxTbDQwZzRrczA0/bktqbkk9" alt="Image 3">
+            </div>
+        </section>
+        <section id="booking">
+            
+            <h3>Booking</h3>
+            <form id="booking-form">
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin">
+                
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout">
+                
+                <label for="room-type">Room Type:</label>
+                <select id="room-type" name="room-type">
+                    <option value="single">Single</option>
+                    <option value="double">Double</option>
+                    <option value="suite">Suite</option>
+                </select>
+                
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+        <section id="contact">
+            <h3>Contact</h3>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 Hotel Paradise. All rights reserved.</p>
+    </footer>
+</body>
+</html>
